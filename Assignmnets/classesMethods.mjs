@@ -1,55 +1,39 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 
+class Car{  
+
+ constructor()
+  {
+      console.log('This is constructor');
+  }
 
 
-class Car{
-
-
-     
-     
-
- constructor(){
-
-    
-    console.log('This is constructor');
-   }
-
-
-   add()
-   {
+ add()
+  {
     console.log('This is add method');
     // console.log(number1 + number2);
-   }
+  }
 
  
-
- subtract(){
-    
+ subtract()
+  {
     console.log('This is subtract method');
-    
-    // console.log(num1 - num2);
-
-
+    console.log(num1 - num2);
 }
 
- multiply(){
-
-    
+ multiply()
+ {   
     console.log('This is multiply method');
-    // console.log(num1 * num2);
+    console.log(num1 * num2);
    
-}
+ }
 
- division(){
-
+ division()
+ {
     console.log('This is Division method');
-    // console.log(num1 / num2);
-
-    
-}
-
-
+    console.log(num1 / num2);    
+ }
 }
 
 // let num1 = prompt("Enter your first number : ");
